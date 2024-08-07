@@ -22,7 +22,9 @@ export default function Dashboard({ auth, books }) {
                 }
             >
                 <Head title="Dashboard" />
-                <button onClick={showModal}>登録</button>
+                <button onClick={showModal} className="ml-80 bg-blue-400 w-24">
+                    登録
+                </button>
 
                 <div className="py-12">
                     <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
